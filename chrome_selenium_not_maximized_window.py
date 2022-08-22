@@ -14,6 +14,7 @@ url = 'https://едем.рф'
 
 def main():
     try:
+        # Открытие браузера не на весь экран
         driver.get(url)
         # Неявное ожидание
         driver.implicitly_wait(10)
